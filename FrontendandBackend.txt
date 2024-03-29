@@ -1,0 +1,261 @@
+Front-end y Back-end
+Concepto Cliente/Servidor
+
+Front-End
+Es la parte visible por el usuario de una pagina web
+Se relaciona con la creacion de una pagina funcional(computadora/tablet o celular) que puede verse en un navegador(cliente)
+HTML, CSS Y JavaScript
+Editor de texto plano y navegador de internet.
+
+
+Back-End
+Corre en el servidor.
+Se encarga del manejo de algoritmos y la utilizacion de bases de datos para guardar o procesar informacion:
+Usuario, productos, claves, procesos de seleccion, filtros, listados y todo tipo de consultas sobre plataformas web.
+Parte administrativa del sitio web.
+Bases de datos, Python y frameworks asociados.
+
+
+HTML
+HyperText Markup Language; Lenguaje de Marcado de hipertexto.
+Define la estructura, semantica y contenido de las paginas web.
+El navegador(cliente) interpreta el HTML y lo represtan en pantalla.
+Permite agregar texto, imagenes, enlaces, tablas, listas, formularios, etc.
+Ultima version del estandar:HTML 5.
+No todos los navegadores son capaces de interpretar un mismo codigo de una manera unificada.
+
+Hipertexto:
+Sistema que permite enlazar fragmentos de textos entre si. Permite que la estructura no sea lineal, sino que el usuario acceda a la informacion
+a traves de los items relacionados.
+
+HTML como funciona?
+El navegador (cliente) le pide informacion al servidor.
+El servidor devuelve la informacion al cliente en un archivo HTML.
+El navegador en el cliente lee el archivo de arriba hacia abajo y de izquierda a derecha para interpretar la informacion.
+Tiene en cuenta las etiquetas que tiene el documento y las va renderizando en la pantalla(lo que se ve en el navegador).
+
+
+Editores de texto
+Notepad++
+Visual Studio
+
+Estructura de una pagina web
+
+<header></header> 
+<nav></nav>
+<aside></aside>
+<section></section>
+<article></article>
+<footer></footer>
+
+Estructura de una pagina web(codigo)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+Estructura de una Página Web (código)
+<!DOCTYPE html> Indica que la versión corresponde a HTML5.
+
+<html lang= “es”> Es la etiqueta principal que engloba al resto de las etiquetas, el atributo lang
+define el tipo de lenguaje.
+
+<head> Es la cabeza del documento que contiene los metadatos de la página web.
+
+<meta charset="utf-8"/> Indica al navegador qué tipo de caracteres contiene la página, con el
+atributo charset vamos a indicar el conjunto de caracteres que vamos a usar y con el valor "utf-8"
+abarcamos a la mayoría de los sistemas de escritura.
+
+<title> Indica el título de la página Web, que se visualiza en la barra de título del navegador.
+
+<body> Es el cuerpo del documento donde va a estar todo el contenido que vamos a mostrar.
+
+Las etiquetas
+Definen que funcion cumple cada elemento dentro de la pagina.
+Estructura basica, tienen una apertura y un cierre que describen la informacion
+contenida entre ellas, aunque algunos casos solamente tienen apertura, como la etiqueta<br>(line break o salto de linea):
+
+<b>Texto de ejemplo</b>
+<p>Hola, estamos en el parrafo 1</p>
+<p> Ahora hemos cambiado de parrafo</p>
+
+<p>Este es un parrafo<br> que continua en este renglon</p>
+
+Etiquetas Basicas
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>:
+Encabezados, numerados del 1 al 6 por orden de relevancia. Es importante respetar ese orden para que el navegador entienda la estructura de la pagina.
+
+
+Las etiquetas 
+<etiqueta  atributo= "valor"> contenido </etiqueta>
+
+<a href="https://www.google.com" target="_blank">Ir a Google</a>
+
+Etiquetas basicas
+si en VS escribimos Lorem100 se escribira un texto de ejemplo de 100 palabras.
+Y escribiendo p*3 se crearan 3 etiquetas<p>
+
+
+Listas HTML
+Utilizan las etiquetas <ul>: lista desordenada (unordered list) u <ol>: lista ordenada (ordered list)
+
+Cada elemento de la lista se representa con <li> y su padre siempre tiene que ser una etiqueta <ol> o <ul>
+
+Nada impide utilizar una lista dentro de
+otra lista. Este concepto se conoce como
+“listas anidadas” o listas dependientes y
+puede ser útil cuando enumeramos ítems
+que contienen sub-items.
+
+<h3>listas desordenadas dependientes</h3>
+<ul>
+	<li>Lunes</li>
+
+
+Listas de definicion:
+<h3>Listas de definicion</h3>
+<p><b>Alimentos Lacteos</b></p>
+<dl>
+	<dt>leche</dt>
+      <dd>Descremada</dd>
+      <dd>Entera</dd>
+	<dt>Queso</dt>
+	<dd>Fontina</dd>
+	<dd>Mozzarella</dd>
+</dl>
+
+Enlaces absolutos y relativos
+Permiten vincular unas paginas con otras. Para hacer esto utilizamos el elemento <a> con el atributo href(Hypertext Reference). Hay 3 tipos de enlaces:
+Absoluto:
+es un enlace que incluye todas las partes de una URL:
+
+<a href="url">Ir a la pagina</a>
+
+Relativo:
+Hace referencia a un recurso que se encuentra en una posicion relativa a nuestra URL
+
+<a href="img/img.jpg">enlace a un imagen</a>
+
+Enlaces Internos(anclas):
+Se utiliza para indicar un elementop dentro de la misma pagina, dirigiendose a un sector especifico.Para utilizarlo necesitamos el enlace propiamente dicho y el
+nombre(name) del ancla al cual debemos dirigirlo.
+
+<a href="#quienessomos">Ir a quienes somos</a>
+<a name="quienessomos">quienes somos</a>
+
+Se pueden vincular a anclas dentro de la pagina de destino:
+<a href="archivo.html#seccion">contenido</a>
+
+Al igual que en los enlaces internos marcamos la seccion con un ancla:
+<a name="seccion"></a>
+
+
+ENLACES(Atributos)
+
+Dentro de los atributos principales de los enclaes podemos encontrar:
+
+Download:
+Especifica cual es el objetivo que se descargara cuando un usuario haga clic en el hipervinculo
+
+Href:
+Especifica la URL de la pagina a la que se dirige el enlace.
+
+Target:
+Espeficica donde abrir el documento vinculado. Algunas de las opciones son:
+_blank:
+Abre el documento vinculado en una nueva ventana
+_self:
+Abre el documento vinculado en el mismo marco en el que se hizo clic(predeterminado)
+
+Title:
+Especifica informacion adicional sobre un elemento.
+La informacion generalmente se muestra como un texto de informacion sobre herramientas cuando el mouse se mueve sobre el elemento.
+
+Si aun no tenemos definidio a donde queremos hacer un hipervinculo podemos colocar dentro del atributo href el valor #
+
+Enlaces Locales
+Permite vincular nuestra pagina con otra pagina del mismo Sitio Web.
+
+<a href="enlaces-locales2.html"> Soy un enlace local a otra pagina</a>
+
+<a href="enlaces-locales1.html">Volver</a>
+
+Enlaces a direcciones de correo y archivos
+
+Permiten vincular nuestra pagina con el cliente de correo predeterminado en la computadora:
+<a href="mailto:Juan@gmail.com">Enviar correo</a>
+Se pueden agregar un "asunto":
+<a href="mailto:Juan@gmail.com?subject=Contacto">Enviar correo</a>
+
+Los enlaces tambien permiten vincular nuestro documento HTML con archivos:
+<a href="archivo.pdf">Abrir PDF</a>
+<a href="archivo.pdf" download>Descargar PDF</a>
+<a href="documento.txt">Abrir documento de texto</a>
+<a href="plantilla.xlsx">Descargar</a>
+
+
+RUTAS
+Rutas absolutas y relativas
+
+Cuando hablamos de ruta (o path) nos referimos a la direccion de destino al hacer clic en el link.
+Esta ruta puede ser:
+
+Absoluta:
+Nombre de dominio(externa)
+http://www.manualweb.net/img/logo/html.png
+
+Relativa:
+Directorios desde donde estoy(interna):/img/casa.png
+
+Rutas absolutas y relativas
+Mientras desarrollamoos el sitio en forma local(desde nuestra computadora)
+nos conviene tener la informacion dividida en carpetas.
+
+Ahora si queremos volver porque la ruta de la imagen el video esta atras se hace de la siguiente manera
+
+<a href="../pag.html">volver a la pagina anterior</a>
+
+../ es la forma que tenemos para movernos a la ruta anterior
+page.html si estoy en una misma carpeta
+paginas/page.html si me tengo que mover a una carpeta mas adelante.
+
+En general nuestro index.html sera la pagina principal y las demas pagines estaran en el directorio raiz, pero para colocar imagenes,
+hojas de estilo, archivos de JavaScript nos conviene ponerlos en carpetas separadas.
+
+
+
+Tipos de elemento
+Elementos en bloque y en linea
+
+HTML clasifica a todos los elementos en dos grupos: inline y block. De por defecto, los elementos en bloque comienzan en una nueva linea y los elementos en linea
+pueden ciomenzar en cualquier parte de una linea.
+
+Inline:
+<br>,<a>,<img>,<span>,<b>,<strong>,<mark>,<sub>,etc.
+
+Block
+<div>,<p>,<h1>..<h6>,<ul>,<ol>,<li>,<table>,<form>,etc.
+
+
+Formatos de texto afectan al texto que se muestra en el documento
+Han sido sustituidos en buena parte por CS, pero su conocomiento nos permite modificar aspectos concretos de la fuente(estilo, indices y subindicies) sin tener
+la necesidad de definir un estilo especificamente para modificar solo un atributo
+<b>Texto en negrita</b>
+<strong>Texto importante</strong>
+<u>Texto subrayado</u>
+<mark>Texto marcado</mark>
+<ins>Texto insertado</ins>
+<small>Texto mas diminuto</small>
+<i>Texto en Italica o cursiva</i>
+<del>Texto tachado</del>
+<sup>Texto en superindice</sup>
+<sub>Texto del subindice</sub>
+<em>Texto con enfasis</em>

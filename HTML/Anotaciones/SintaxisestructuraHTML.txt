@@ -1,0 +1,83 @@
+Sintaxis de Html
+Apertura
+El inicio de una etiqueta se produce de la siguiente manera:
+<etiqueta>
+
+Cierre
+El final de una etiqueta se produce de manera similar a su apertura, aunque agregando
+una barra:
+</etiqueta>
+
+Si en nuestro documento HTML escribimos una frase con el siguiente código:
+<b>Esto está en negrita</b>
+
+Veremos que las palabras "Esto está en negrita" aparecen en negrita. Ya que el texto que
+encerramos entre una <b> que abre y otra que cierra </b> genera que la página muestre
+ese texto en negrita:
+<b> acá ponés cualquier texto </b>
+
+Es así de simple.
+
+Otro ejemplo rápido. La etiqueta p define un párrafo. Si en nuestro documento HTML
+escribimos:
+
+<p>Hola, estamos en el párrafo 1</p>
+<p>Ahora hemos cambiado de párrafo</p>
+
+Un salto de línea será
+simplemente interpretado como un separador de palabras, un espacio en blanco. Es por
+ello que para separar líneas necesitamos usar la etiqueta de párrafo comentada antes, o
+la etiqueta BR que significa un salto de línea simple
+
+Esto es una línea.
+<br>
+Esto es otra línea<br>Esto es otra línea
+
+Partes del Documento HTML:
+
+Además de todo esto, un documento HTML ha de estar delimitado por la etiqueta HTML.
+
+Dentro de este documento, podemos asimismo distinguir dos partes principales:
+La cabecera, delimitada por la etiqueta HEAD, donde colocaremos etiquetas de índole
+informativo, como por ejemplo el título de nuestra página.
+El contenido de la cabecera no suele aparecer en el cuerpo de la página, pero sirve a los navegadores y otros sistemas
+para encontrar información útil para entender y procesar el documento.
+
+El cuerpo, flanqueado por la etiqueta BODY, que será donde colocaremos nuestro texto e
+imágenes delimitados a su vez por otras etiquetas como las que hemos visto.
+
+El resultado de un documento básico tiene la siguiente estructura:
+<html>
+	<head>
+		<title>Mi documento básico</title>
+	</head>
+	<body>
+		<p>Este es el cuerpo de mi primera página HTML</p>
+		<p>Este segundo párrafo también forma parte del cuerpo</p>
+	</body>
+</html>
+
+
+HTML5:
+<!DOCTYPE html>
+El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al
+inicio de nuestro documento HTML y que permite al navegador entender qué versión de
+HTML estamos utilizando
+
+Juego de Caracteres:
+
+En HTML5 el juego de caracteres a usar es siempre UTF-8. Por lo que tendremos que
+tener especial atención si somos usuarios de Windows, para asegurarnos que usamos la
+codificación correcta. Por ejemplo, Brackets o Atom (editores de código), trabajan siempre
+en UTF-8, independientemente del sistema operativo. Si no estás usando uno de esos
+editores, te recomendamos que los investigues y si queres trabajar con tu propio editor
+infórmate sobre el juego de caracteres que produce y si existe alguna opción o
+configuración que te asegure usar siempre UTF-8
+
+Para definir qué juego de caracteres estamos usando en un documento HTML se tiene
+que escribir una etiqueta en la cabecera de la página, en el HEAD, llamada META.
+Realmente las etiquetas META las trataremos más adelante, porque sirven para varias
+cosas interesantes. Pero de momento nos aseguraremos que tenemos esta etiqueta en el
+head.
+<meta charset="UTF-8">
+

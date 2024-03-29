@@ -1,0 +1,56 @@
+Pagina web
+principales caracteristicas 
+Es un documento HTML(texto, imagenes, CSS, Javascript)
+Pueden ser estaticas(solo codigo) o dinamica(con contenido extraido de una base de datos)
+
+Sitio Web
+Principales caracteristicas de un sitio web
+Son un conjunto de paginas web estructuras en un dominio.
+Se pueden crear escribiendo codigo o mediante CMS o builders.
+Pertenecen a empresas, organizaciones o personas.
+
+Aplicacion Web
+Principales caracteristicas de una aplicacion web.
+Es un software desarrollado con tecnologias Web
+Se crea mediante codigo, utilizando diversos lenguajes de programacion, librerias, frameworks, etc.
+Son creadas por desarrolladores web, profesionales.
+
+Aplicacion de Escritorio
+El usuario accede a la aplicacion
+La aplicacion accede a un repositorio de datos para pedir informacion o para modificarla.
+La apliacion muestra al usuario la informacion solicitada.
+
+Aplicacion Web
+El usuario ingresa la URL(direccion)en el navegador.
+El servidor web recibe la solicitud y envia la respuesta en HTML al navegador.
+En el navegador se ingresa la informacion de usuario y contraseña.
+Dicha informacion se traduce a HTML
+Dicha informacion se envia al servidor.
+Si estos datos son validos el usuario e redireccionado a la pagina que desea ingresar.
+
+Ingresas a la web entonces te devuelve como un login, luego que llenas el formulario chequea que este todo bien 
+y busca en el servidor de la web tu cuenta y te la trae.
+
+
+Ventajas de una Aplicacion Web
+Se puede ejecutar desde cualquier dispositivo que cuente con navegador y con conexion a Internet.
+No es necesario instalarlas en el dispositivo, basta con un navegador web.
+Son faciles de actualizar y mantener.
+Su funcionalidad es independiente al Sistema Operativo instalado en la PC del usuario.
+Permite que las aplicaciones sean multiusuario.
+Las paginas web poseen estructuras similares que mejoran la experiencia en el uso de las diferentes aplicaciones.
+
+Aplicacion de Escritorio VS Aplicacion web.
+
+Aplicacion Escritorio
+Es aquella que esta instalada en el dispositivo del usuario
+Es ejecutada directamente por el sistema operativo del dispositivo, ya sea Microsoft Windows, Mac OS X,
+Linux, Android, ETC.
+Su rendimiento depende de diversas configuraciones de hardware como memoria RAM, disco duro, memoria de video, etc.
+
+Aplicacion Web.
+Es aquella que esta instalada en un Servidor.
+Su ejecuccion requiere que el usuario disponga de:
+	Un dispositivo con conexion a internet.
+	Un navegador(google, explore, Mozilla)
+El usuario solo necesita renderizar contenido, lo que suele ser menos demandante de poder de calculo.

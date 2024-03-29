@@ -1,0 +1,23 @@
+HTML
+A lo largo de la seccion vamos a descubrir el principal lenguaje utilizado para la creacion de pagina web.
+HyperText Markup Language, mas conocido mediante sus siglas HTML.
+HyperText porque te permite unir distintas paginas el conjunto de paginas es definido como un sitio web.
+Marcado porque utiliza etiquetas para indicar al browser de la Web cómo mostrar el texto. Las etiquetas de marca que 
+usamos en HTML consisten en un corchete izquierdo( < ), (el símbolo "menor que''), al que sigue el nombre de la etiqueta y cerrado por un corchete derecho( > )
+
+Es un lenguaje informatico con el que se escribe el contenido de las paginas web.
+
+Las paginas web pueden ser vistas por el usuario mediante el navegador.
+
+Este lengauje nos permite unir textos, imagenes, enlaces y combinarlos a nuestro gusto
+La ventaja de HTML a la hora de representar el contenido en un navegador, con respecto a referencias a otras paginas, por mediode los enlaces hipertexto.
+
+HTML se creo en 1991, Tim Berners-Lee lo creo e existe una
+organización llamada W3C que se encarga de definir el estándar que todos deben seguir
+a la hora de escribir e interpretar el HTML. Estos estándares del HTML se conocen como
+"Especificaciones", las cuales han ido apareciendo en el tiempo. El HTML5 es el último
+estándar en la actualidad.
+
+Claramente no es solo HTML, el encargado de hacer un sitio web
+estan sus acompañantes CSS para darle diseño.
+y JavaScript para darle funcionamiento.
